@@ -64,11 +64,26 @@
                     <h2 class="mb-5">Portfolio</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Identifying Nutrient Deficiencies in Satellite Farmland Imagery</h3>
+                            <div class="subheading mb-3"><a href="https://github.com/mr-steven-tran/identifying_nutrient_deficiencies_in_satellite_farmland_imagery">github.com/mr-steven-tran/identifying_nutrient_deficiencies_in_satellite_farmland_imagery</a></div>
+                            <p>
+                                For this project, I trained a <a href='https://arxiv.org/abs/1505.04597'>U-Net</a> convolutional neural network using Tensorflow Keras to perform semantic segmentation on satellite farmland imagery.
+                                The goal was to identify image regions with  nutrient deficiency, prototyping a method by which a model could identify crop ailments that are detrimental to aricultural yields.
+                            </p>
+                            <p>
+                                The image data came from the <a href="https://arxiv.org/abs/2001.01306">AgricultureVision dataset</a>, which is publicly available on the <a href="https://registry.opendata.aws/intelinair_agriculture_vision/">Registry of Open Data on AWS</a>.
+
+                            </p>
+                            <img src="assets/img/ag_preds.png" alt="Comparison of segmentation model predictions">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">Ames, Iowa Housing Price Prediction</h3>
                             <div class="subheading mb-3"><a href="https://github.com/mr-steven-tran/ames_IA_housingPrice_prediction">github.com/mr-steven-tran/ames_IA_housingPrice_prediction</a></div>
                             <p>
                                 For this project, I used python, NumPy, pandas, sci-kit learn, and multivariate linear regression to solve two problems. The first was a prediction problem: knowing only the attributes of a set of homes in Ames, Iowa, predict what their sale prices would be. The second was an inferential problem: determine if certain home floor plan configurations fetch a higher sale price premium than others.
-                            </p>
+                            </p> 
                             <img src="assets/img/proj2_EDA_example.png" alt="Distribution of home sale price and number of bedrooms">
                             <P>
                                 If you're interested, I wrote a <a href="https://steven-tran.medium.com/project-retrospective-the-ames-ia-home-sale-price-predictions-21fa03ae3870">brief retrospective on the project on Medium</a>.
@@ -87,7 +102,7 @@
                             </p>
                             <img src="assets/img/proj3_results.png" alt="Model performance comparison for Logistic Regression, K-Nearest Neighbors, and XGBoost">
                             <p>
-                                <a href="#">For this project, I also recreated the exploratory data analysis and modeling in <strong>R</strong>!</a>
+                                <!--<a href="#">For this project, I also recreated the exploratory data analysis and modeling in <strong>R</strong>!</a>-->
                             </p>                            
                         </div>
                     </div>
